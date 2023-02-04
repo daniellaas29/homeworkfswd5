@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;800;900&display=swap');
+
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+body{
+    background-color: #F5EAE4;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #B39B6F;
+    background: url(asset/travel.png)no-repeat;
+    background-size: 650px;
+    background-position: right;
+    align-items: center;
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 90%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #B39B6F;
+    margin-right: 15px;
+    margin-top: auto;
+}
+
+header .logo{
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 1px;
+}
+
+header .navigation a{
+    color: #B39B6F;
+    background: #F5EAE4;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.2s;
+}

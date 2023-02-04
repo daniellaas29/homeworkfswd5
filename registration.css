@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;800;900&display=swap');
+
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+body{
+    background-color: #F5EAE4;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #B39B6F;
+    background: url(asset/travel.png)no-repeat;
+    background-size: 650px;
+    background-position: right;
+    align-items: center;
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 90%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #B39B6F;
+    margin-right: 15px;
+    margin-top: auto;
+}
+
+header .logo{
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 1px;
+}
+
+header .navigation a{
+    color: #B39B6F;
+    background: #F5EAE4;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+section .p{
+    position: relative;
+    top: 0;
+    width: 90%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #B39B6F;
+    font-size: 15px;
+}
+
+section .h3{
+    position: relative;
+    top: 0;
+    width: 90%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #B39B6F;
+    font-size:20pt;
+}
+
+section .h6{
+    position: relative;
+    top: 0;
+    width: 90%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #B39B6F
+}
+
+.info .submit-btn{
+    color: #B39B6F;
+    background: white;
+    padding: 0em;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius:10px;
+    align-items: center;
+    box-sizing:border-box;
+    transition: 0.2s;
+    transition-property: background;
+}
+
+table .master-table{
+    padding: 0em;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 10px 20px;
+    align-items:left;
+}
+
+table .listofregistration{
+    padding: 0em;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 10px 20px;
+    align-items:left;
+}
+
+.input-jeniskelamin{
+    position: relative;
+    font-weight:100;
+    font-size:15px;
+    padding: 10px 20px;
+}
+
+.input-status{
+    position: relative;
+    font-weight:100;
+    font-size:15px;
+    padding: 10px 20px;
+}
+
+.submit .submit-btn{
+    position: relative;
+    color: #B39B6F;
+    background: white;
+    padding:0mm;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius:10px;
+    align-items: center;
+    box-sizing:border-box;
+    transition: 0.2s;
+    transition-property: background;
+}
+
+.info .p{
+    position: relative;
+    color: #B39B6F;
+    font-weight: 200px;
+    font-size: 10px;
+}
+
+.master-table .input-group-textm{
+    position: relative;
+    font-weight:800;
+    font-size:30px;
+}
+
+.input-group-text{
+    position: relative;
+    font-weight:300;
+    font-size:18px;
+}
+
+.input-group-text1{
+    position: relative;
+    font-weight:300;
+    font-size:12px;
+}
+footer{
+    position: absolute;
+    color: #B39B6F;
+    font-weight:300;
+    font-size:10px;
+    align-items:center;
+}
